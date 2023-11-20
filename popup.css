@@ -1,0 +1,67 @@
+
+
+/* Set a container width */
+body {
+  margin: 0;
+  padding: 15px;
+  width: 400px;
+}
+
+/* Style the tab list container */
+.tabListContainer {
+  margin-top: 20px;
+}
+
+/* Style the tab list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the links */
+a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style the dropdown menu */
+.tabCountSelect {
+  padding: 5px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+button {
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+#clearButton{
+  margin-left:200px;
+}
